@@ -1,0 +1,385 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>RESUME | JOEL DIBDIB</title>
+    <style>
+        body{
+            padding: 50px 20px;
+            font-family: sans-serif;
+            background-color: #E5E4EA;
+            display: flex;
+            justify-content: center;
+        }
+        .box{
+            
+            background-color: white;
+            padding: 70px 100px;
+            border-radius: 5px;
+            width: 680px;
+            height: 1000px;
+        }
+        .container{
+            display: flex;
+        }
+        .image img{
+            height: 120px;
+            width: 120px;
+            border-radius: 100px;
+        }
+        .name{
+            margin-top: 5px;
+            margin-left: 40px;
+            line-height: 0.1;
+        }
+        .name p{
+            font-size: 40px;
+            color: #333333;
+            
+        }
+        .name h1{
+            font-size: 40px;
+            font-weight: 600;
+        }
+        .contacts{
+            margin-left: 150px;
+            margin-top: 1%;
+        }
+        .contacts ul li{
+            margin-top: 10px;
+            list-style: none;
+            font-size: 13px;
+            color: #333333;
+        }
+        .about-experience{
+            margin-left: -650px;
+            margin-top: 180px;
+            display: flex;
+            font-size: 13px;
+        }
+        .about-experience .aboutme h2{
+            
+            letter-spacing: 2px;
+            color: #333333;
+            font-weight: 500;
+        }
+        .about-experience .workexp{
+            margin-left: 50px;
+            
+        }
+        .about-experience .workexp h2{
+            letter-spacing: 2px;
+            color: #333333;
+            font-weight: 500;
+        }
+        .about-experience .workexp .hr{
+            width: 400px;
+            height: 2px;
+            background-color: black;
+            margin-top: -10px;
+
+        }
+        .about-experience .aboutme .hr{
+            width: 200px;
+            height: 2px;
+            background-color: black;
+            margin-top: -10px;
+            margin-bottom: 30px;
+        }
+        .about-experience .container{
+            border-left: 1px solid black;
+            padding-left: 15px;
+            
+            margin-top: 1px;
+            letter-spacing: 1px;
+
+        }
+        .about-experience .container p{
+            margin-top: -20px;
+            color: #333333;
+            font-weight: 300;
+            font-size: 12px;
+        }
+        .circle{
+            width: 15px;
+            height: 15px;
+            border-radius: 50px;
+            border: 1px solid black;
+            margin-top: 10px;
+            margin-left: -8px;
+            justify-content: center;
+            display: flex;
+            
+        }
+        .circle .circles{
+            width: 5px;
+            height: 5px;
+            border-radius: 50px;
+            background-color: black;
+            position: absolute;
+            margin-top: 5px;
+            
+        }
+        .workexp .container{
+            margin-top: 30px;
+            padding-top: 30px;
+            
+        }
+
+        .workexp .circle{
+            margin-top: 30px;
+            margin-bottom: -28px;
+        }
+        .workexp .container .title{
+            position: absolute;
+
+            margin-top: -50px;
+        }
+        .education{
+            margin-top: 210px;
+            margin-left: 265px;
+            position: absolute;
+        }
+        .education .hr{
+            width: 400px;
+            height: 1px;
+            background-color: black;
+            margin-top: -10px;
+            margin-bottom: 30px;
+        }
+        .education h2{
+            color: #333333;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+        .education .container .title{
+            position: absolute;
+
+            margin-top: -50px;
+        }
+        .education .container {
+            padding-top: 30px;
+        }
+
+        .skills{
+            position: absolute;
+
+            margin-top: 570px;
+            margin-left: 265px;
+        }
+        .skills h2{
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+        .skills .hr{
+            width: 400px;
+            height: 1px;
+            background-color: black;
+            margin-top: -10px;
+            margin-bottom: 30px;
+        }
+       
+        .skills table .td2{
+            position: absolute;
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+        .html{
+            display: flex;
+        }
+        .bar.bar2.bar3.bar4.bar5.bar6.bar7.bar8{
+            margin-left: 2px;
+            margin-top: 0px;
+            position: absolute;
+            height: 4px;
+            width: 40%;
+            background-color: #BBBCBE;
+            border-radius: 5px;
+        }
+        .bar,.bar2,.bar3,.bar4,.bar5,.bar6,.bar7,.bar8 .progress-bar{
+            background-color: black;
+            height: 4px;
+            width: 20%;
+            border-radius: 5px;
+        }
+        .skills .containers p{
+            margin-top: 20px;
+        }
+        .boxs{
+            display: flex;
+            margin-top: -20px;
+        }
+        .boxs .side-container{
+            margin-left: 80px;
+        
+        }
+        .boxs .containers .bar,.bar2,.bar3,.bar4,.bar5,.bar6,.bar7,.bar8{
+            margin-top: -10px;
+        }
+        
+        .boxs .side-container{
+            margin-top: 5px;
+            line-height: 22.3px;
+        }
+        .boxs .side-container .bar{
+            margin-top: -14px;
+        }
+        .bar .progress-bar{
+            width: 20%;
+            background-color: black;
+        }
+        .bar{
+            width: 69%;
+            
+        }
+        li{
+            display: flex;
+            
+        }
+        ul li i{
+            margin-right: 10px;
+            height: 20px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="container">
+            <div class="image">
+                <img src="img/profile.jpg" alt="" srcset="">
+            </div>
+            <div class="name">
+                <p>JOEL</p>
+                <h1>DIBDIB</h1>
+            </div>
+            <div class="contacts">
+                <ul>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Tabon, Dalaguete, Cebu Cebu, 6022</li>
+                    <li><i class="fa fa-phone"></i>09090870244</li>
+                    <li><i class="fa fa-envelope"></i>dibdibjoel4@gmail.com</li>
+                </ul>
+            </div>
+           
+            <div class="about-experience">
+                <div class="aboutme">
+                    <h2>ABOUT ME</h2>
+                    <div class="hr"></div>
+                    <div class="circle">
+                        <div class="circles"></div>
+                    </div>
+                    <div class="container">
+                        <p>Engaging college students with 3 years and a half of experience college students at Cebu Technological University - Argao Campus. <br>Recieved a good feedback from Teachers and Classmates for each those years. Improved my creativity and other skills that I include on my resume. Seeking a role as a Front end Developer to continue my passion.</p>
+                    </div>
+                    
+                </div>
+
+
+                <div class="workexp">
+                    <h2>WORK EXPERIENCE</h2>
+                    <div class="hr"></div>
+                    <div class="circle">
+                        <div class="circles"></div>
+                    </div>
+                    <div class="container">
+                        <p class="title">TEACHER AIDE | NOV 2019 - NOV 2019 <br>STUDENT, UNIVERSITY OF VISAYAS - DALAGUETE</p>
+                        <p>I serve as a Teacher Aide within Private schools both College and Senior High Students, providing assistance to special education teachers and students within self-contained as well as inclusion classrooms. Support instructional activities, learner engagement, classroom management and behavior modification goals. Follow school policies, teacher guidelines and students IEPS to ensure students safety and achievement of learning outcomes.</p>
+                    </div>  
+                </div>
+
+                <div class="education">
+                    <h2>EDUCATION</h2>
+                    <div class="hr"></div>
+                    <div class="circle">
+                        <div class="circles"></div>
+                    </div>
+                    <div class="container">
+                        <p class="title">ELEMENTARY GRADUATE | 2013-2014</p>
+                        <p>Tabon Elementary School, Tabon Dalaguete Cebu</p>
+                    </div>  
+
+                    <div class="circle">
+                        <div class="circles"></div>
+                    </div>
+                    <div class="container">
+                        <p class="title">JUNIOR HIGH MOVING UP | 2016-2017</p>
+                        <p>Mantalongon National High School, <br>Mantalongon Dalaguete Cebu</p>
+                    </div>  
+
+                    <div class="circle">
+                        <div class="circles"></div>
+                    </div>
+                    <div class="container">
+                        <p class="title">SENIOR HIGH SCHOOL GRADUATE | 2019-2020</p>
+                        <p>Mantalongon National High School, <br>Mantalongon Dalaguete Cebu</p>
+                    </div>  
+
+                    <div class="circle">
+                        <div class="circles"></div>
+                    </div>
+                    <div class="container">
+                        <p class="title">COLLEGE UNDER GRADUATE | 2023-Present</p>
+                        <p>Cebu Technological University - Argao Campus, <br>Argao Cebu</p>
+                    </div>  
+
+
+
+                    
+                </div>
+
+                <div class="skills">
+                    <h2>SKILLS</h2>
+                    <div class="hr"></div>
+                    <div class="boxs">
+                        <div class="containers">
+                           
+                            <p>Basic Knowledge in HTML</p>
+                            <div class="bar">
+                                <div class="progress-bar"></div>
+                            </div>
+                           
+                            <p>Coding and Programming</p>
+                            <div class="bar2">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <p>Teamwork</p>
+                            <div class="bar3">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <p>Adaptability</p>
+                            <div class="bar4">
+                                <div class="progress-bar"></div>
+                            </div>
+    
+                        </div>
+                        <div class="side-container">
+                            <p>UI/UX Design</p>
+                            <div class="bar5">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <p>Creativity</p>
+                            <div class="bar6">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <p>Time Management</p>
+                            <div class="bar7">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <p>Attention to Detail</p>
+                            <div class="bar8">
+                                <div class="progress-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+   
+</body>
+</html>
